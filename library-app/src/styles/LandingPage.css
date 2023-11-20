@@ -1,0 +1,93 @@
+/* Styles for the entire landing page */
+.landing-page {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.landing-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Site name styles */
+.site-name {
+    font-size: 3em;
+    color: #333;
+    margin: 0;
+}
+
+/* Logo styles */
+.site-logo {
+    height: 100px;
+    width: auto;
+    margin-top: 10px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Styles for the hero button */
+.hero-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.25em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.view-books-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.25em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.hero-button:hover {
+    background-color: #0056b3;
+}
+
+.site-footer {
+    background-color: #333;
+    /* Dark background */
+    color: white;
+    /* Light text */
+    text-align: center;
+    /* Center the text */
+    padding: 20px 0;
+    /* Some padding on top and bottom */
+    font-size: 0.9em;
+    /* Slightly smaller font size */
+}
+
+/* If you have links in your footer, you may want to style them too */
+.site-footer a {
+    color: #fff;
+    /* Light link color */
+    text-decoration: none;
+    /* No underline */
+}
+
+.site-footer a:hover {
+    color: #ddd;
+    /* Slightly lighter color on hover */
+}
+
+
+main {
+    flex-grow: 1;
+}
