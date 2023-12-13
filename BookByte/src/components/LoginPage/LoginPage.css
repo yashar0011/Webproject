@@ -1,20 +1,11 @@
-/* Enhanced LoginPage.css */
 .login-container {
-    max-width: 360px;
-    /* Adjusted for a more standard width */
+    max-width: 400px;
     margin: 5% auto;
-    /* More responsive vertical alignment */
     padding: 25px;
-    border: none;
-    /* Removed border for a cleaner look */
-    border-radius: 8px;
-    /* Softer round edges */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Enhanced shadow for depth */
     background-color: #ffffff;
-    /* Pure white background for a modern look */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-family: 'Arial', sans-serif;
-    /* Consistent, readable font */
 }
 
 .login-container h2 {
@@ -22,7 +13,6 @@
     margin-bottom: 24px;
     color: #333;
     font-size: 1.8em;
-    /* Larger font for the title */
 }
 
 .login-container form {
@@ -33,9 +23,7 @@
 .login-container label {
     margin-bottom: 8px;
     color: #444;
-    /* Slightly darker for better readability */
     font-weight: bold;
-    /* Emphasize labels */
 }
 
 .login-container input[type="text"],
@@ -43,28 +31,46 @@
     padding: 12px;
     margin-bottom: 18px;
     border: 2px solid #ddd;
-    /* Slightly thicker border */
     border-radius: 4px;
     font-size: 1em;
-    /* More readable text size */
 }
 
 .login-container button {
     padding: 12px;
-    background-color: #5cb85c;
-    /* More inviting color */
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-    /* Added transform for interaction */
+    transition: background-color 0.3s, box-shadow 0.3s;
     font-size: 1em;
 }
 
 .login-container button:hover {
-    background-color: #4cae4c;
-    /* Adjusted hover color */
-    transform: translateY(-2px);
-    /* Slight raise on hover for a dynamic feel */
+    background-color: #0069d9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login-container .message {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 4px;
+    color: #d9534f;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    text-align: center;
+    font-size: 1em;
+}
+
+.login-container .message.success {
+    color: #4cae4c;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+@media (max-width: 576px) {
+    .login-container {
+        margin: 10% auto;
+        padding: 20px;
+    }
 }
